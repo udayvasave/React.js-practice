@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2rem 5rem 2.5rem 5rem;
+  padding: 0rem;
+}
+.Resume-download {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.Resume-download a {
+  padding: 15px 40px;
+  background-color: #003049;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.education-details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+.EduTitle {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  text-decoration: underline;
+  color: #28292b;
+}
+.edulogoclgdetails {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clgName span {
+  font-size: 1.5rem;
+  color: #28292b;
+}
+.clgName p {
+  padding-top: 1rem;
+  color: #4a5759;
+}
+.clgName {
+  margin-left: 5rem;
+}
+
+.skills {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+
+.skilltitle {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  text-decoration: underline;
+  color: #28292b;
+}
+.content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  width: 45rem;
+}
+.rightside {
+  margin-left: 3rem;
+  padding: 1rem;
+  line-height: 1.4;
+  letter-spacing: 1.3;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 60%;
+}
+.rightside span {
+  /* width: 100%; */
+  opacity: 0.8;
+}
+
+.leftside {
+  padding: 1rem;
+  line-height: 1.4;
+  letter-spacing: 1.3;
+  font-weight: 500;
+  width: 30%;
+}
+
+.skill1 {
+  /* width: 100vw; */
+  background-color: #003049;
+  color: #ffffff;
+
+  border: 1px solid grey;
+}
+
+@media only screen and (max-width: 750px) {
+  .content {
+    width: auto;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .edulogoclgdetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .MUlogo {
+    /* width: 90%; */
+    margin: 1rem auto;
+  }
+  .clgName {
+    margin: auto;
+  }
+  .EduTitle {
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+  }
+}

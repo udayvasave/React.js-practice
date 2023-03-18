@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding: 2rem 5rem;
+}
+.leftsidefooter {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  /* bottom: 0; */
+  /* position: absolute; */
+  /* padding: 2rem 5rem; */
+  width: 60%;
+}
+.githublink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 1.5rem;
+  color: #4a5759;
+}
+.githublink a {
+  text-decoration: none;
+  color: #4a5759;
+}
+.line {
+  height: 1px;
+  background-color: black;
+  width: 10px;
+  margin-top: 5px;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.linkText {
+  border-right: 2px solid #28292b;
+  padding-right: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.rightsidefooter {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  /* position: absolute; */
+  right: 2rem;
+}
+.Social-icons {
+  /* right: 2rem; */
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    /* bottom: 1rem; */
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    bottom: 3rem;
+    /* position: absolute; */
+  }
+  .leftsidefooter {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem 0rem;
+  }
+  .rightsidefooter {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-top: 2rem; */
+    padding: 2rem 0rem 0rem 0rem;
+  }
+}

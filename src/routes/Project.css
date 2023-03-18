@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.Project-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin: 3rem 20rem 5rem 20rem;
+}
+.Heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+.Heading h3 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  color: #28292b;
+}
+.Heading span {
+  color: #4a5759;
+  font-size: 1rem;
+  margin: 0rem 0.5rem;
+}
+
+.Project1 p,
+.Project2 p {
+  color: #4a5759;
+}
+.Project1 a,
+.Project2 a {
+  color: #00b2ca;
+  padding-bottom: 0.7rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.Project1,
+.Project2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  border: 3px solid grey;
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 0rem 2rem 2rem 2rem;
+  width: 25rem;
+  height: 20rem;
+}
+
+.Project1 h4,
+.Project1 p,
+.Project2 h4,
+.Project2 p {
+  padding-bottom: 1rem;
+}
+
+.Project1 h4,
+.Project2 h4 {
+  font-size: 1.1rem;
+  color: #28292b;
+}
+
+@media only screen and (max-width: 950px) {
+  .Project-container {
+    margin: 3rem 0rem 3rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .Project1,
+  .Project2 {
+    width: auto;
+    height: auto;
+  }
+}

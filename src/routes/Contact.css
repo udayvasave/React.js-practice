@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Contact-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #003049;
+  /* flex-direction: column; */
+  /* width: 100%; */
+
+  padding: 3rem 5rem;
+  color: #ffffff;
+  margin: auto auto;
+}
+.address {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-left: 1.5rem;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+.Phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+  margin-left: 0;
+  color: #ffffff;
+  padding-left: 1.5rem;
+  font-size: 1.5rem;
+}
+.email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+  padding-left: 1.5rem;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+.left {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.social a {
+  /* display: flex; */
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-left: 1rem;
+}
+.social {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+@media only screen and (max-width: 1100px) {
+  .Contact-container {
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .Contact-container {
+    margin: auto;
+    padding: auto;
+  }
+
+  .Phone h4,
+  .email h4,
+  .address {
+    padding-left: 1rem;
+    font-size: 1.3rem;
+    padding-right: 1rem;
+    font-weight: 300;
+  }
+  .social {
+    white-space: nowrap;
+  }
+  .address {
+    padding-left: 1.5rem;
+  }
+}
